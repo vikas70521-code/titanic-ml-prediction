@@ -1,7 +1,7 @@
 # Titanic Survival Prediction (Machine Learning)
 
 ## Objective
-Build a machine learning model to predict survival on the Titanic.
+Predicting passenger survival using machine learning
 
 ## Steps Performed
 - Data cleaning and Preprocessing

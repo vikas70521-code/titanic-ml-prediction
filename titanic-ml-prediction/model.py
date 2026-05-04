@@ -104,7 +104,7 @@ rf_test_accuracy = accuracy_score(Y_test, rf_test_Prediction)
 # -----------------------------
 # Results
 # -----------------------------
-print("Logic Regression:")
+print("Logistic Regression:")
 print("Train Accuracy : ", lr_train_accuracy )
 print("Test Accuracy : ", lr_test_accuracy)
 

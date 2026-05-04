@@ -11,7 +11,8 @@ Predicting passenger survival using machine learning
 
 ## Models Used
 - Logistic Regression 
-- Decision Tree 
+- Decision Tree
+- Random Forest
 
 ## Results
 - Logistic Regression:
@@ -26,10 +27,20 @@ Predicting passenger survival using machine learning
   - After Tuning (max_depth = 3):
     - Train Accuracy : 0.83
     - Test Accuracy : 0.78
+   
+- Random Forest:
+  - Before Tuning:
+    - Train Accuracy : 0.98
+    - Test Accuracy : 0.79
+
+  - After Tuning (max_depth = 3):
+    - Train Accuracy : 0.84
+    - Test Accuracy : 0.77
 
 ## Key Learnings
 - Logistic Regression generalizes better with smaller gap between train and test accuracy
 - Decision Tree initially overfitted (larger gap between train and test accuracy)
+- Random Forest gave highest test accuracy before tuning
 - max_depth helps reduce overfitting in Decision Tree
 - Features like Sex and Pclass have strong impact on Survival
 
@@ -43,4 +54,4 @@ Predicting passenger survival using machine learning
 - Name : Titanic Dataset
 
 ## Conclusion
-Logistic Regression performed better due to better generalization, while Decision Tree required tuning to control overfitting
+Logistic Regression performed best overall due to better balanec between accuracy and generalization
